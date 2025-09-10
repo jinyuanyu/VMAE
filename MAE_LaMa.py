@@ -14,7 +14,7 @@ import numpy as np
 import os
 import cv2
 from PIL import Image 
-from simple_lama_inpainting import SimpleLama
+#from simple_lama_inpainting import SimpleLama
 from skimage.metrics import structural_similarity as ssim
 from skimage.metrics import peak_signal_noise_ratio as psnr
 import numpy as np
@@ -1214,3 +1214,4 @@ def inference_with_pretrained(out_channels,model_path, data_dir, model, dataset,
         
         # 打印当前帧的指标
         print(f"{times[0, t].item():<10}{ssim_val:.4f}{'':<2}{psnr_val:.2f}{'':<5}{mae:.4f}")
+
