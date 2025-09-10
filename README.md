@@ -1,0 +1,2 @@
+# VMAE
+MAE for interpolation
